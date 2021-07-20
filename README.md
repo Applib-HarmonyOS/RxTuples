@@ -1,3 +1,5 @@
+[![Build](https://github.com/applibgroup/RxTuples/actions/workflows/main.yml/badge.svg)](https://github.com/applibgroup/RxTuples/actions/workflows/main.yml)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=applibgroup_RxTuples&metric=alert_status)](https://sonarcloud.io/dashboard?id=applibgroup_RxTuples)
 # RxTuples
 RxTuples is a library to smooth RxJava usage by adding simple Tuple creation functions.
 
