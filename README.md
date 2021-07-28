@@ -27,6 +27,13 @@ This library has functions to combine multiple Observable objects into appropria
  implementation 'io.reactivex:rxjava:1.3.8'
  testImplementation 'junit:junit:4.13'
 ```
+3. For using rxtuples module in separate application using har file, add the har file in the entry/libs folder and add the dependencies in entry/build.gradle file.
+```
+dependencies {
+		implementation 'dev.applibgroup:rxtuples:1.0.1'
+        	testCompile 'junit:junit:4.12'
+	}
+```
 
 ## Usage
 RxTuples come as lazily evaluated FuncN and its main use case is alongside the combineLatest, withLatestFrom, zip, and zipWith operators.
